@@ -8,6 +8,9 @@ namespace CSC132_FinalProject
 {
     abstract class Major
     {
+        /// <summary>
+        //just made a change
+        /// </summary>
        // int total_credits;
         //int credits = 120;
         //infoirmation hiding using get and set 
