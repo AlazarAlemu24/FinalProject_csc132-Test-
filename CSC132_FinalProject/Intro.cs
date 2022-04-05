@@ -10,11 +10,17 @@ using System.Windows.Forms;
 
 namespace CSC132_FinalProject
 {
-    public partial class Form1 : Form
+    public partial class Intro : Form
     {
-        public Form1()
+        public Intro()
         {
             InitializeComponent();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+         Console.WriteLine("Can you see this? Yes I can || good");
+        
         }
     }
 }
