@@ -9,7 +9,7 @@ namespace CSC132_FinalProject
     abstract class Major
     {
         /// <summary>
-        //just made a change
+        //just made a change to push 
         /// </summary>
        // int total_credits;
         //int credits = 120;
