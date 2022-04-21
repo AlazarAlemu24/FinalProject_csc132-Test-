@@ -47,6 +47,7 @@ namespace CSC132_FinalProject
             this.picbxCUlogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picbxCUlogo.TabIndex = 0;
             this.picbxCUlogo.TabStop = false;
+            this.picbxCUlogo.Click += new System.EventHandler(this.picbxCUlogo_Click);
             // 
             // lblWelcome
             // 
@@ -55,7 +56,7 @@ namespace CSC132_FinalProject
             this.lblWelcome.ForeColor = System.Drawing.Color.DarkGoldenrod;
             this.lblWelcome.Location = new System.Drawing.Point(389, 316);
             this.lblWelcome.Name = "lblWelcome";
-            this.lblWelcome.Size = new System.Drawing.Size(255, 25);
+            this.lblWelcome.Size = new System.Drawing.Size(497, 49);
             this.lblWelcome.TabIndex = 1;
             this.lblWelcome.Text = "Welcome to CU plan app!";
             // 
@@ -98,7 +99,7 @@ namespace CSC132_FinalProject
             // 
             // Intro
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 19F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(18F, 36F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;

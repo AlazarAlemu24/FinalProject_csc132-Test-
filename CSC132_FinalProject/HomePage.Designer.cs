@@ -122,9 +122,9 @@ namespace CSC132_FinalProject
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(32, 32);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.nskjdksmdToolStripMenuItem});
-            this.menuStrip1.Location = new System.Drawing.Point(342, 190);
+            this.menuStrip1.Location = new System.Drawing.Point(353, 217);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(285, 0);
+            this.menuStrip1.Size = new System.Drawing.Size(352, 50);
             this.menuStrip1.TabIndex = 3;
             this.menuStrip1.Text = "menuStripHP";
             // 
@@ -137,7 +137,7 @@ namespace CSC132_FinalProject
             this.fINToolStripMenuItem,
             this.eCOToolStripMenuItem});
             this.nskjdksmdToolStripMenuItem.Name = "nskjdksmdToolStripMenuItem";
-            this.nskjdksmdToolStripMenuItem.Size = new System.Drawing.Size(160, 82);
+            this.nskjdksmdToolStripMenuItem.Size = new System.Drawing.Size(160, 46);
             this.nskjdksmdToolStripMenuItem.Text = "MAJORS";
             // 
             // cSCToolStripMenuItem

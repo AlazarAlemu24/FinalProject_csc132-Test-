@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CSC132_FinalProject
 {
-    abstract class Major
+    public abstract class Major
     {
         /// <summary>
         //just made a change to push 
@@ -14,11 +14,16 @@ namespace CSC132_FinalProject
        // int total_credits;
         //int credits = 120;
         //infoirmation hiding using get and set 
-        protected string Description_of_major;
-        protected int Number_of_credits;
-        protected int ClassesCompleted;
+        private string description_of_major;
+        private int number_of_credits;
+        private int classesCompleted;
+
+        protected string Description_of_major { get => description_of_major; set => description_of_major = value; }
+        protected int Number_of_credits { get => number_of_credits; set => number_of_credits = value; }
+        protected int ClassesCompleted { get => classesCompleted; set => classesCompleted = value; }
 
         //Changing the value of the hidden variables 
+
         public Major(string Desc_of_major, int Num_of_credits, int Classes_completed)
         {
             this.Description_of_major = Desc_of_major;
@@ -30,12 +35,12 @@ namespace CSC132_FinalProject
         public abstract string Info_for_Major();
     
     }
-class Computer_science : Major
+public class Computer_science : Major
 {
-    public Computer_science(string Desc_of_major, int Num_of_credits, int Classes_completed) : base(Desc_of_major, Num_of_credits, Classes_completed)
-    {
+        public Computer_science(string Desc_of_major, int Num_of_credits, int Classes_completed) : base(Desc_of_major,  Num_of_credits, Classes_completed)
+        {
 
-    }
+        }
         public override int Credit_calculator()
         {
             Number_of_credits = 120;
@@ -82,7 +87,7 @@ class Computer_science : Major
 
         public override int Credit_calculator()
         {
-            //David Groom wrote this method to calculate the total credits needed to graduate
+            //David Groom wrote this method to calculate the total credits needed to graduatejfjf 
                 Number_of_credits = 130;
             //David Groom. Accounting has 130 credits
                int total_credits = Number_of_credits - ClassesCompleted;

@@ -22,5 +22,10 @@ namespace CSC132_FinalProject
          Console.WriteLine("Can you see this? Yes I can || good");
         
         }
+
+        private void picbxCUlogo_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
