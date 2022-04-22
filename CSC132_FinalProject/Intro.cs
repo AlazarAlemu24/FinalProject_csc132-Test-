@@ -27,5 +27,11 @@ namespace CSC132_FinalProject
         {
 
         }
+
+        private void btncontinue_Click(object sender, EventArgs e)
+        {
+            HomePage gotoHomepage = new HomePage();
+            gotoHomepage.Show();
+        }
     }
 }

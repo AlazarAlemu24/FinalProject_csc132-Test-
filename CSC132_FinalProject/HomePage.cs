@@ -16,5 +16,11 @@ namespace CSC132_FinalProject
         {
             InitializeComponent();
         }
+
+        private void cSCToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Preferences gottopreferences = new Preferences();
+            gottopreferences.Show();
+        }
     }
 }

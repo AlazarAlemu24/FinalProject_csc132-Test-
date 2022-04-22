@@ -30,7 +30,7 @@ namespace CSC132_FinalProject
             this.Number_of_credits = Num_of_credits;
             this.ClassesCompleted = Classes_completed;
         }
-        //creating a method that is going to be altered in the child class
+        //creating a method that is going to be altered in the child class comment
         public abstract int Credit_calculator();
         public abstract string Info_for_Major();
     

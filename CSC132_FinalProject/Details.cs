@@ -10,17 +10,11 @@ using System.Windows.Forms;
 
 namespace CSC132_FinalProject
 {
-    public partial class Output : Form
+    public partial class Details : Form
     {
-        public Output()
+        public Details()
         {
             InitializeComponent();
-            //bkjbnnnnnnnnnnnnnn
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }
