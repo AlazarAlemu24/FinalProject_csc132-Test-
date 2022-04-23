@@ -14,9 +14,9 @@ namespace CSC132_FinalProject
        // int total_credits;
         //int credits = 120;
         //infoirmation hiding using get and set 
-        private string description_of_major;
-        private int number_of_credits;
-        private int classesCompleted;
+        protected string description_of_major;
+        protected int number_of_credits;
+        protected int classesCompleted;
 
         protected string Description_of_major { get => description_of_major; set => description_of_major = value; }
         protected int Number_of_credits { get => number_of_credits; set => number_of_credits = value; }

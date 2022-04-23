@@ -88,6 +88,7 @@ namespace CSC132_FinalProject
             this.lblJTerm = new System.Windows.Forms.Label();
             this.btnAddJTerm = new System.Windows.Forms.Button();
             this.txtJTerms = new System.Windows.Forms.TextBox();
+            this.lblMajorfromHomepage = new System.Windows.Forms.Label();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -581,11 +582,21 @@ namespace CSC132_FinalProject
             this.txtJTerms.Size = new System.Drawing.Size(100, 20);
             this.txtJTerms.TabIndex = 52;
             // 
+            // lblMajorfromHomepage
+            // 
+            this.lblMajorfromHomepage.AutoSize = true;
+            this.lblMajorfromHomepage.Location = new System.Drawing.Point(647, 28);
+            this.lblMajorfromHomepage.Name = "lblMajorfromHomepage";
+            this.lblMajorfromHomepage.Size = new System.Drawing.Size(41, 13);
+            this.lblMajorfromHomepage.TabIndex = 53;
+            this.lblMajorfromHomepage.Text = "label24";
+            // 
             // Preferences
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(866, 504);
+            this.Controls.Add(this.lblMajorfromHomepage);
             this.Controls.Add(this.txtJTerms);
             this.Controls.Add(this.btnAddJTerm);
             this.Controls.Add(this.lblJTerm);
@@ -712,5 +723,6 @@ namespace CSC132_FinalProject
         private System.Windows.Forms.Label lblJTerm;
         private System.Windows.Forms.Button btnAddJTerm;
         private System.Windows.Forms.TextBox txtJTerms;
+        private System.Windows.Forms.Label lblMajorfromHomepage;
     }
 }

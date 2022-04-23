@@ -16,7 +16,20 @@ namespace CSC132_FinalProject
         {
             InitializeComponent();
         }
+        //public frmPhone()
+        //{
+        //InitializeComponent();
+        //}
 
+        //private Form1 mainForm = null;
+        private HomePage firstForm = null;
+        public Preferences(Form callingForm)
+        {
+        InitializeComponent();
+        firstForm = callingForm as HomePage;
+        }
+       
+        
         private void Preferences_Load(object sender, EventArgs e)
         {
 
@@ -42,6 +55,8 @@ namespace CSC132_FinalProject
 
         private void btnAddCredits_Click(object sender, EventArgs e)
         {
+            firstForm.Number_of_credits = 0;
+            
 
         }
 

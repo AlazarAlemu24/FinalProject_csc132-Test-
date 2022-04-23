@@ -51,7 +51,7 @@ namespace CSC132_FinalProject
             // 
             this.btnbackHP.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnbackHP.Location = new System.Drawing.Point(6, 6);
-            this.btnbackHP.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnbackHP.Margin = new System.Windows.Forms.Padding(2);
             this.btnbackHP.Name = "btnbackHP";
             this.btnbackHP.Size = new System.Drawing.Size(60, 33);
             this.btnbackHP.TabIndex = 0;
@@ -62,7 +62,7 @@ namespace CSC132_FinalProject
             // 
             this.btnhelpHP.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnhelpHP.Location = new System.Drawing.Point(6, 277);
-            this.btnhelpHP.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnhelpHP.Margin = new System.Windows.Forms.Padding(2);
             this.btnhelpHP.Name = "btnhelpHP";
             this.btnhelpHP.Size = new System.Drawing.Size(76, 34);
             this.btnhelpHP.TabIndex = 0;
@@ -74,7 +74,7 @@ namespace CSC132_FinalProject
             this.btnexitHP.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnexitHP.ForeColor = System.Drawing.Color.Red;
             this.btnexitHP.Location = new System.Drawing.Point(534, 6);
-            this.btnexitHP.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnexitHP.Margin = new System.Windows.Forms.Padding(2);
             this.btnexitHP.Name = "btnexitHP";
             this.btnexitHP.Size = new System.Drawing.Size(73, 36);
             this.btnexitHP.TabIndex = 0;
@@ -85,7 +85,7 @@ namespace CSC132_FinalProject
             // 
             this.btnnextHP.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnnextHP.Location = new System.Drawing.Point(534, 272);
-            this.btnnextHP.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnnextHP.Margin = new System.Windows.Forms.Padding(2);
             this.btnnextHP.Name = "btnnextHP";
             this.btnnextHP.Size = new System.Drawing.Size(73, 34);
             this.btnnextHP.TabIndex = 0;
@@ -96,7 +96,7 @@ namespace CSC132_FinalProject
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(256, 6);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(152, 72);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -157,25 +157,29 @@ namespace CSC132_FinalProject
             // 
             this.bUSToolStripMenuItem.Name = "bUSToolStripMenuItem";
             this.bUSToolStripMenuItem.Size = new System.Drawing.Size(180, 24);
-            this.bUSToolStripMenuItem.Text = "BUS";
+            this.bUSToolStripMenuItem.Text = "ACC";
+            this.bUSToolStripMenuItem.Click += new System.EventHandler(this.bUSToolStripMenuItem_Click);
             // 
             // cISToolStripMenuItem
             // 
             this.cISToolStripMenuItem.Name = "cISToolStripMenuItem";
             this.cISToolStripMenuItem.Size = new System.Drawing.Size(180, 24);
-            this.cISToolStripMenuItem.Text = "CIS";
+            this.cISToolStripMenuItem.Text = "EXC";
+            this.cISToolStripMenuItem.Click += new System.EventHandler(this.cISToolStripMenuItem_Click);
             // 
             // fINToolStripMenuItem
             // 
             this.fINToolStripMenuItem.Name = "fINToolStripMenuItem";
             this.fINToolStripMenuItem.Size = new System.Drawing.Size(180, 24);
             this.fINToolStripMenuItem.Text = "FIN";
+            this.fINToolStripMenuItem.Click += new System.EventHandler(this.fINToolStripMenuItem_Click);
             // 
             // eCOToolStripMenuItem
             // 
             this.eCOToolStripMenuItem.Name = "eCOToolStripMenuItem";
             this.eCOToolStripMenuItem.Size = new System.Drawing.Size(180, 24);
-            this.eCOToolStripMenuItem.Text = "ECO";
+            this.eCOToolStripMenuItem.Text = "EGR";
+            this.eCOToolStripMenuItem.Click += new System.EventHandler(this.eCOToolStripMenuItem_Click);
             // 
             // HomePage
             // 
@@ -191,7 +195,7 @@ namespace CSC132_FinalProject
             this.Controls.Add(this.btnbackHP);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "HomePage";
             this.Text = "Form2";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
